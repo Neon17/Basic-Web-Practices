@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+header {
+    height: 8.9vh;
+    min-height: 70px;
+    background-color: #FFF;
+    display: flex;
+}
+#logoholder {
+    width: 10%;
+    height: 100%;
+}
+#logoholderimage {
+    width: 60%;
+    margin-top: 6%;
+    margin-left: 4%;
+    height: 90%;
+}
+#menuboxes {
+    width: 40%;
+}
+#importantstickers {
+    width: 50%;
+}
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
