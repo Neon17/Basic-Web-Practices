@@ -115,16 +115,22 @@ header ul li a:hover {
         display: block;
         background-color: rgb(213, 220, 226);
     }
+    header #hasdropdown {
+        height: auto;
+    }
+    header .Maindropdown {
+        height: 100px !important;
+    }
     header .navlistitem {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
         margin: auto;
         width: 100%;
         background-color: rgb(213, 220, 226);
     }
     header .navlistitem .headerdropdown {
         display: none;
+        width: 100%;
+        height: 60%;
     }
     header .navlistitem a{
         padding: 15px 0 0 0;
