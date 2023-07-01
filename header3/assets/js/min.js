@@ -1,9 +1,15 @@
 window.onload = function() {
+    var showit = document.getElementById("NavIdCollapse");
     if (window.innerWidth<=768){
         var showit = document.getElementById("NavIdCollapse");
         showit.style.display = "none";
         console.log("hello");
     }
+   if (window.innerWidth>768){
+        if (showit.hasAttribute("style")){
+            showit.style.display = "flex";
+        }
+   }
     
 }
 function showNavlists () {
