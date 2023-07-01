@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: aliceblue;
+}
+nav {
+    width: 100%;
+    height: 100%;
+    padding: 0px 3% 0px 3%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.containeritem {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containeritem:hover:not(:first-child) {
+    background-color: rgb(210, 232, 252);
+    cursor: pointer;
+}
+.introductionpage {
+    height: calc(100vh - 80px);
+    width: 100%;
+}
+.introductioncontainer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    height: 100%;
+}
+.introductioncontainerpart {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.titlepartintro {
+    font-size: 3rem;
+}
+.textpartintro {
+    font-size: 1.2rem;
+}
+.loginregisterpart a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 15px 15px 15px;
+}
+
+.servicespage {
+    width: 100%;
+    height: 60vh;
+}
+.servicescontainer {
+    width: 100%;
+    height: 100%;
+    padding: 0 3% 0 3%;
+}
+.servicestitlepart {
+    display: flex;
+    height: 10%;
+    width: 100%;
+}
+.servicesheading {
+    width: 70%;
+    height: 100%;
+}
+.viewallpart {
+    width: 30%;
+    height: 100%;
+    text-align: right;
+}
+
+.servicesbody{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+.servicesbodyitem {
+    width: 25%;
+    height: 100%;
+    padding: 15px;
+}
+.servicescard {
+    width: 100%;
+    height: 100%;
+}
+.cardimage {
+    width: 100%;
+    height: 40%;
+}
+.cardimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.cardpage {
+    height: 40vh;
+    width: 100%;
+    padding: 15px 3% 15px 3%;
+}
+.cardcontainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.cardcontaineritem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardjoinnowbutton button {
+    padding: 15px 15px 15px 15px;
+}
+.cardjoinnowbutton button:hover {
+    cursor: pointer;
+}
+.cardimagecard {
+    width: 35%;
+    height: 100%;
+}
+.cardtextcard {
+    width: 65%;
+    height: 100%;
+    padding-left: 5%;
+}
+.imageholdercontainer {
+    width: 100%;
+    height: 100%;
+    padding: 5px 5px 5px 0;
+}
+
+.testimonialpage {
+    width: 100%;
+    height: 60vh;
+}
+.testimonialcontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.testimonialheading {
+    font-size: 2rem;
+}
+.testimonialimageholder {
+    width: 100%;
+    height: 30%;
+}
+.testimonialimageholder img {
+    object-fit: contain;
+}
+
+
+footer {
+    width: 100%;
+    height: 40vh;
+}
+.footercontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 5% 3% 5% 3%;
+}
+.footercontaineritem {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footerlink {
+    align-items: center;
+}
+.footerheading {
+    height: 20%;
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: inherit;
+    justify-content: inherit;
+}
+.footerlinkheading h5 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.footermapexplain {
+    width: 100%;
+    height: 80%;
+}
