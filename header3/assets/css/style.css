@@ -102,6 +102,9 @@ header ul li a:hover {
     header .companyname {
         width: 80%;
     }
+    .navbar-collapse {
+        display: none;
+    }
     header .navbar-collapse {
         width: 100%;
     }
