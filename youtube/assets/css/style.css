@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 56px;
+    background-color: #FFF;
+    box-shadow: 5px 5px 5px #000;
+    position: sticky;
+    top: 0;
+}
+nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.leftheaderside {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+    height: 100%;
+}
+.middleheaderside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+.rightheaderside {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    height: 100%;
+}
+.searchboxinputholder {
+    height: 100%;
+    font-size: 3rem;
+}
+.searchboxinputholder input[type="text"]{
+    font-size: inherit;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    width: 100%;
+}
+.profilebellholder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+nav div div > * {
+    padding-left: 5px;
+    padding-right: 5px;
+}
