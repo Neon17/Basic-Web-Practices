@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* All things in common */
+
+header, section {
+    width: 100%;
+}
+header {
+    height: 60px;
+    background-color: aliceblue;
+    color: black;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.leftcontainer, .rightcontainer {
+    width: 45%;
+    height: 100%;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+button {
+    padding: 10px 15px 10px 15px;
+    background-color:   rgb(131, 204, 180);
+    border-radius: 10px;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color:rgb(79, 192, 152);
+}
+
+
+
+
+nav {
+    height: 100%;
+    width: 100%;
+}
+.navcontainer {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.leftnavcontainer, .rightnavcontainer {
+    width: 45%;
+}
+nav img:hover {
+    cursor: pointer;
+}
+.companynametext {
+    font-size: 2rem;
+    font-weight: normal;
+}
+.companynametext:hover {
+    font-weight: 800;
+    cursor: pointer;
+}
+.menuicon {
+    display: none;
+    align-items: center;
+}
+.navcontainer {
+    display: flex;
+}
+.navlist {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+.navlistitem {
+    padding: 15px 15px 15px 15px;
+}
+.navlistitem:hover:not(:last-child){
+    background-color: rgb(177, 203, 218);
+    cursor: pointer;
+}
+.imgholder {
+    height: 80%;
+    width: 10%;
+}
+.leftnavcontainer, .rightnavcontainer {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.horizontalcard {
+    overflow: none;
+}
+.lefthorizontalcard {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    width: 40%;
+    height: 100%;
+}
+.horizontalcardheadingholder {
+    padding-bottom: 15px;
+}
+.horizontalcardtextholder {
+    padding-bottom: 100px;
+}
+.horizontalcardheading {
+    font-size: 3rem;
+    color: green;
+}
+.containerhorizontalcard {
+    background-color: antiquewhite;
+    align-items: center;
+}
+.horizontalcardimageholder {
+    padding-top: 5%;
+    padding-bottom: 7%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.normalcard {
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+}
+.containernormalcard {
+    padding: 15px 0 15px 0;
+}
+.cardnormal {
+    box-shadow: 2px 2px 5px black, -5px 0px 5px black;
+}
+.normalcardheadingholder, .featurestextholder {
+    width: 85%;
+    margin: auto;
+}
+.normalcardheading {
+    font-size: 2rem;
+    color: green;
+}
+.imagesholder {
+    display: flex;
+    justify-content: center;
+}
+.imageholderholder {
+    width: 43.5%;
+    height: 100%;
+    padding: 15px 15px 15px 15px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .menuicon {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+    }
+    .rightnavcontainer, .navlist, .navlistitem {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .navlistitem {
+        text-align: center;
+        background-color: aliceblue;
+    }
+}
